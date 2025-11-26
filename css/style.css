@@ -1,0 +1,154 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: #111;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background: white;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1167ff;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav a.active,
+nav a:hover {
+    color: #1167ff;
+}
+
+.page-btn {
+    background: #1167ff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 60px;
+}
+
+.hero-left {
+    max-width: 45%;
+}
+
+.hero-left h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    color: #111;
+}
+
+.hero-left h1 span {
+    font-weight: 300;
+}
+
+.hero-left p {
+    margin: 20px 0;
+    color: #555;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background: #1167ff;
+    padding: 12px 25px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #19c37d;
+}
+
+/* RIGHT DECORATION */
+.hero-right {
+    position: relative;
+    width: 50%;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: #1167ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: 60%;
+}
+
+/* Arrow shapes */
+.arrow {
+    width: 260px;
+    height: 160px;
+    border-radius: 40px;
+    transform: rotate(180deg);
+    background: linear-gradient(to right, #1167ff, #19c37d);
+    clip-path: polygon(0 50%, 60% 0, 100% 0, 40% 50%, 100% 100%, 60% 100%);
+}
+
+.arrow1 {
+    position: absolute;
+    right: 10%;
+}
+
+.arrow2 {
+    position: absolute;
+    right: -15%;
+    opacity: 0.45;
+}
+
+/* SECTION STYLE */
+.section {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    color: #1167ff;
+}
+
+.section p {
+    max-width: 700px;
+    margin: 20px auto;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+}
