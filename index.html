@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKJ Modern - Teknik Komputer dan Jaringan</title>
+    <link rel="stylesheet" href="/Ball v2/Ball/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR - DESKTOP SAMA PERSIS DENGAN HP -->
+    <header>
+        <div class="logo">
+            <!-- Ganti gambar di bawah dengan logo TKJ Modern Anda -->
+            <img src="/Ball v2/Ball/img/mutu.png" alt="TKJ" class="logo-img">
+            <!-- Opsional: jika ingin tetap ada teks di samping logo -->
+            <!-- <div class="logo-text">
+                <span>TKJ</span> Modern.
+            </div> -->
+        </div>
+
+        <!-- Menu Desktop - SAMA dengan menu HP -->
+        <nav class="nav-desktop">
+            <a href="#home" class="active">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="#profil">
+                <i class="fas fa-user"></i> Profil
+            </a>
+            <a href="#materi">
+                <i class="fas fa-book"></i> Materi
+            </a>
+            <a href="#lainnya">
+                <i class="fas fa-ellipsis-h"></i> Lainnya
+            </a>
+            <button class="page-btn">Page 01</button>
+        </nav>
+
+        <!-- Hamburger untuk Mobile -->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay - SAMA PERSIS dengan Desktop -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="logo">
+                <!-- Logo juga di mobile menu -->
+                <img src="/Ball v2/Ball/img/mutu.png" alt="TKJ" class="logo-img">
+            </div>
+            <div class="hamburger active" id="closeMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="mobile-menu-content">
+            <a href="#home" class="active">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="#profil">
+                <i class="fas fa-user"></i> Profil
+            </a>
+            <a href="#materi">
+                <i class="fas fa-book"></i> Materi
+            </a>
+            <a href="#lainnya">
+                <i class="fas fa-ellipsis-h"></i> Lainnya
+            </a>
+            <button class="mobile-menu-btn">Page 01</button>
+        </div>
+    </div>
+
+    <!-- SECTION HOME -->
+    <section id="home" class="hero">
+        <div class="hero-left">
+            <h1><span>Teknik</span><br>Komputer & Jaringan</h1>
+            <p>
+                Jurusan TKJ mempelajari jaringan komputer, konfigurasi server,
+                keamanan jaringan, routing, switching, dan administrasi sistem.
+                Menjadi ahli dalam bidang teknologi jaringan yang semakin dibutuhkan di era digital.
+            </p>
+            <a href="#materi" class="btn">
+                <i class="fas fa-book-open"></i> Pelajari Lebih Lanjut
+            </a>
+        </div>
+
+        <div class="hero-right">
+            <div class="circle"></div>
+            <div class="arrow arrow1"></div>
+            <div class="arrow arrow2"></div>
+        </div>
+    </section>
+
+    <!-- SECTION PROFIL -->
+    <section id="profil" class="section">
+        <h2>Profil TKJ</h2>
+        <p>
+            Program keahlian Teknik Komputer dan Jaringan berfokus pada teknologi jaringan,
+            perangkat keras, troubleshooting, dan server administration.
+        </p>
+        
+        <div class="profil-content">
+            <div class="profil-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Visi</h3>
+                <p>Menjadi program keahlian unggulan dalam bidang teknologi jaringan komputer yang menghasilkan tenaga profesional berdaya saing global.</p>
+            </div>
+            
+            <div class="profil-card">
+                <i class="fas fa-bullseye"></i>
+                <h3>Misi</h3>
+                <p>Menyelenggarakan pendidikan dan pelatihan di bidang TKJ yang berkualitas, relevan dengan kebutuhan industri, dan berorientasi masa depan.</p>
+            </div>
+            
+            <div class="profil-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Kompetensi</h3>
+                <p>Lulusan TKJ memiliki kompetensi dalam instalasi jaringan, administrasi server, keamanan jaringan, dan troubleshooting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION MATERI -->
+    <section id="materi" class="section">
+        <h2>Materi Pembelajaran</h2>
+        <p>
+            Materi meliputi jaringan dasar, routing, switching, keamanan jaringan,
+            administrasi Linux dan Windows Server, serta cloud computing.
+        </p>
+        
+        <div class="materi-container">
+            <div class="materi-card">
+                <h3><i class="fas fa-network-wired"></i> Jaringan Dasar</h3>
+                <ul>
+                    <li>Topologi Jaringan</li>
+                    <li>Model OSI dan TCP/IP</li>
+                    <li>IP Addressing dan Subnetting</li>
+                    <li>Perangkat Jaringan</li>
+                </ul>
+            </div>
+            
+            <div class="materi-card">
+                <h3><i class="fas fa-server"></i> Administrasi Server</h3>
+                <ul>
+                    <li>Instalasi Windows Server</li>
+                    <li>Konfigurasi Linux Server</li>
+                    <li>DNS, DHCP, dan Web Server</li>
+                    <li>Virtualisasi dan Container</li>
+                </ul>
+            </div>
+            
+            <div class="materi-card">
+                <h3><i class="fas fa-shield-alt"></i> Keamanan Jaringan</h3>
+                <ul>
+                    <li>Firewall dan ACL</li>
+                    <li>VPN dan Enkripsi</li>
+                    <li>Deteksi Intrusi</li>
+                    <li>Keamanan Wireless</li>
+                </ul>
+            </div>
+            
+            <div class="materi-card">
+                <h3><i class="fas fa-cloud"></i> Teknologi Terkini</h3>
+                <ul>
+                    <li>Cloud Computing</li>
+                    <li>Internet of Things (IoT)</li>
+                    <li>Jaringan 5G</li>
+                    <li>Software Defined Networking</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION LAINNYA -->
+    <section id="lainnya" class="section">
+        <h2>Halaman Lainnya</h2>
+        <p>
+            Informasi tambahan mengenai kegiatan, proyek, dan pengembangan kompetensi di jurusan TKJ.
+        </p>
+        
+        <div class="lainnya-container">
+            <div class="lainnya-card">
+                <h3><i class="fas fa-calendar-alt"></i> Kegiatan</h3>
+                <p>Praktikum jaringan, kunjungan industri, workshop teknologi, dan kompetisi keahlian TKJ.</p>
+            </div>
+            
+            <div class="lainnya-card">
+                <h3><i class="fas fa-project-diagram"></i> Proyek</h3>
+                <p>Implementasi jaringan LAN, instalasi server, keamanan jaringan, dan solusi IoT.</p>
+            </div>
+            
+            <div class="lainnya-card">
+                <h3><i class="fas fa-certificate"></i> Sertifikasi</h3>
+                <p>Persiapan sertifikasi internasional seperti Cisco CCNA, MikroTik MTCNA, dan CompTIA Network+.</p>
+            </div>
+            
+            <div class="lainnya-card">
+                <h3><i class="fas fa-briefcase"></i> Karir</h3>
+                <p>Peluang karir sebagai Network Administrator, System Administrator, IT Support, dan Network Engineer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TKJ Modern</h3>
+                <p>Program keahlian Teknik Komputer dan Jaringan yang berfokus pada pengembangan kompetensi di bidang teknologi jaringan.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Link Cepat</h3>
+                <a href="#home">Home</a>
+                <a href="#profil">Profil</a>
+                <a href="#materi">Materi</a>
+                <a href="#lainnya">Lainnya</a>
+            </div>
+        </div>
+        
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 TKJ. All Rights Reserved.</p>
+        </div>
+    </footer>
+<script src="/Ball v2/Ball/js/app.js"></script>
+
+</body>
+</html>
